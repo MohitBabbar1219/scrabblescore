@@ -34,4 +34,8 @@ describe 'scrabble_score' do
     expect(scrabble_score("OxyphenButazone")).to eq 41
   end
 
+  it 'returns 8 if string is pinata' do
+    expect(scrabble_score("pinata")).to eq 8
+  end
+
 end
