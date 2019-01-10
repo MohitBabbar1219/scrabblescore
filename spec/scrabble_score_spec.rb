@@ -15,7 +15,11 @@ describe 'scrabble_score' do
   end
 
   it 'returns 2 if string is at' do
-    expect(scrabble_score("a")).to eq 1
+    expect(scrabble_score("at")).to eq 2
+  end
+
+  it 'returns 12 if string is zoo' do
+    expect(scrabble_score("zoo")).to eq 12
   end
 
 end
