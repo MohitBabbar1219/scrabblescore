@@ -26,5 +26,8 @@ describe 'scrabble_score' do
     expect(scrabble_score("street")).to eq 6
   end
 
+  it 'returns 22 if string is quirky' do
+    expect(scrabble_score("quirky")).to eq 22
+  end
 
 end
