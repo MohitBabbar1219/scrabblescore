@@ -42,4 +42,8 @@ describe 'scrabble_score' do
     expect(scrabble_score("")).to eq 0
   end
 
+  it 'returns 87 if string is abcdefghijklmnopqrstuvwxyz' do
+    expect(scrabble_score("abcdefghijklmnopqrstuvwxyz")).to eq 87
+  end
+
 end
