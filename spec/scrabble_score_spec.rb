@@ -22,4 +22,9 @@ describe 'scrabble_score' do
     expect(scrabble_score("zoo")).to eq 12
   end
 
+  it 'returns 6 if string is street' do
+    expect(scrabble_score("street")).to eq 6
+  end
+
+
 end
