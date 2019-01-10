@@ -38,4 +38,8 @@ describe 'scrabble_score' do
     expect(scrabble_score("pinata")).to eq 8
   end
 
+  it 'returns 0 if string is empty' do
+    expect(scrabble_score("")).to eq 0
+  end
+
 end
