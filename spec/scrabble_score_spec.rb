@@ -30,4 +30,8 @@ describe 'scrabble_score' do
     expect(scrabble_score("quirky")).to eq 22
   end
 
+  it 'returns 41 if string is OxyphenButazone' do
+    expect(scrabble_score("OxyphenButazone")).to eq 41
+  end
+
 end
